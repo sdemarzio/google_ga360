@@ -3,8 +3,8 @@ connection: "ga_360_nutrisystem"
 # include all the views
 include: "*.view"
 
-# include all the dashboards
-# include: "*.dashboard"
+ #include all the dashboards
+ #include: "*.dashboard"
 
 explore: ga_sessions {
   label: "GA 360 Sessions"
