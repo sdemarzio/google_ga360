@@ -4,7 +4,7 @@ connection: "ga_360_nutrisystem"
 include: "*.view"
 
  #include all the dashboards
- #include: "*.dashboard"
+include: "/**/*.dashboard"
 
 explore: ga_sessions {
   label: "GA 360 Sessions"
